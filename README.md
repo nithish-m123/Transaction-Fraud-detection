@@ -5,8 +5,7 @@ Transaction fraud is a significant challenge in financial systems, leading to su
 
 ![Fraud Detection](https://img.shields.io/badge/Fraud%20Detection-Secure%20Transactions-red?style=for-the-badge&logo=databricks&logoColor=white)  
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Model%20Training-blue?style=for-the-badge&logo=scikitlearn&logoColor=white)  
-![Random Forest](https://img.shields.io/badge/Random%20Forest-Classification-green?style=for-the-badge&logo=python&logoColor=white)  
-![SVM](https://img.shields.io/badge/SVM-Support%20Vector%20Machine-purple?style=for-the-badge&logo=scikitlearn&logoColor=white)  
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Classification-green?style=for-the-badge&logo=python&logoColor=white)   
 ![KNN](https://img.shields.io/badge/KNN-K--Nearest%20Neighbors-orange?style=for-the-badge&logo=python&logoColor=white)  
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-EDA%20&%20Feature%20Engineering-yellow?style=for-the-badge&logo=pandas&logoColor=white)  
 
@@ -17,7 +16,6 @@ Transaction fraud is a significant challenge in financial systems, leading to su
   - Logistic Regression
   - Gradient Boost
   - Random Forest
-  - Support Vector Machine (SVM)
   - K-Nearest Neighbors (KNN)
 - ✅ **Model Evaluation**: Using precision, recall, F1-score, and ROC-AUC for performance analysis.
 - 🔒 **Fraud Probability Score**: Assigns a probability score to each transaction.
@@ -36,7 +34,7 @@ Transaction fraud is a significant challenge in financial systems, leading to su
 Transaction-Fraud-detection/
 │── dataset/
 │   ├── transactions.csv  # Not available in repository due to size(145MB)
-│── transaction.py  # Data cleaning and transformation
+│── TracnsactionFraud.ipynb  # Data cleaning and transformation
 │── README.md  # Project documentation
 ```
 
@@ -61,7 +59,7 @@ Transaction-Fraud-detection/
    ```
 
 ## 📊 Dataset
-- The dataset used in this project contains transaction details such as **transactionType	amount	initiator	oldBalInitiator	newBalInitiator	recipient	oldBalRecipient	newBalRecipient	isFraud**.
+- The dataset used in this project contains transaction details such as **transactionType , amount, initiator, oldBalInitiator, newBalInitiator,recipient,oldBalRecipient,newBalRecipient, isFraud**.
 - It includes both **fraudulent and non-fraudulent transactions** for model training.
 - If no dataset is provided, you can use publicly available datasets like **Kaggle’s Credit Card Fraud Detection dataset**.
 
@@ -71,7 +69,6 @@ Transaction-Fraud-detection/
 | Logistic Regression   | 89.0%    | 88.3%     | 85.7%  | 86.9%    |
 | XGBoost              | 90.0%    | 90.0%     | 99.0%  | 95.0%    |
 | Random Forest       | 88.44%    | 91.0%     | 96.0%  | 94.0%    |
-| SVM                 | 95.6%    | 92.7%     | 91.0%  | 91.8%    |
 | KNN                 | 88.21%    | 92.0%     | 96.0%  | 94.0%    |
 
 ## 📌 Future Enhancements
